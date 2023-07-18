@@ -56,6 +56,22 @@ https://github.com/nikhiljangra0954/Hack2skill_Assignment.git
   }
 ```
 
+**Schema**
+```
+{
+  full_name: String,
+  email: String,
+  team_name: String,
+},
+{
+  full_name: String,
+  email: String,
+  number: Number,
+  city: String,
+  url: String,
+}
+```
+
   #### Run Locally
 ```javascript
   step 1- clone the Repo 
@@ -74,6 +90,3 @@ GET http://localhost:8088/api/retrive_data
 | :-------: | 
 
 [Nikhil](https://github.com/nikhiljangra0954)
-
- 
- [@bire210](https://github.com/bire210) 
