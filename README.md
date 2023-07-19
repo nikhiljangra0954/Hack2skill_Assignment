@@ -19,7 +19,7 @@
 
 **Server side:** Render cloud [link](https://h2s-assignment.onrender.com/api/retrive_data)
 
-**Client side:** Netlify [link](https://h2skillassignment.netlify.app/)
+**Client side:** [Netlify](https://h2sassignment.netlify.app/)
 
 ## Features 
  - Fetching data from two Collections
