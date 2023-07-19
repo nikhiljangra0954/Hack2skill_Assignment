@@ -1,11 +1,13 @@
 const button =  document.querySelector(".fetchbtn");
 button.addEventListener("click",fetchList)
 async function fetchList(){
+    document.querySelector("#loader").classList.remove("hidden")
     const res= await fetch(`https://h2s-assignment.onrender.com/api/retrive_data`);
     if(res.ok){
         const data = await res.json();
         console.log(data)
         renderList(data)
+        document.querySelector("#loader").classList.add("hidden")
     }
 } 
 
